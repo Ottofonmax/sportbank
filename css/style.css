@@ -393,8 +393,9 @@ body {
 
 .s7_item.text-colour-white {
   color: #fff;
-  margin-left: 60px;
+  margin-left: 40px;
   position: relative;
+  padding-left: 60px;
 }
 
 .background_wrapper {
@@ -1365,9 +1366,11 @@ body {
 
 .s7_icon {
   position: absolute;
-  top: 58%;
+  top: 28px;
   bottom: auto;
-  left: -5%;
+  left: 0;
+  width: 19.989px;
+  height: 18.532px;
   right: auto;
 }
 
@@ -1705,7 +1708,7 @@ body {
   }
 
   .headyng1 {
-    font-size: 66px;
+    font-size: 55px;
     line-height: 70px;
   }
 
@@ -1903,11 +1906,11 @@ body {
   .s1-grid {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    grid-template-columns: 1.25fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .h1_wrapper {
-    padding-top: 100px;
+    padding-top: 160px;
   }
 
   .heading2 {
@@ -1967,7 +1970,8 @@ body {
   }
 
   .footer_container {
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
   }
 
   .text-block-11 {
@@ -2182,8 +2186,9 @@ body {
   }
 
   .s7_item.text-colour-white {
-    max-width: 200px;
+    max-width: 250px;
     margin-left: 20px;
+    padding-left: 0;
   }
 
   .s4_txt_number {
@@ -2729,6 +2734,9 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
+  .s7_item.text-colour-white{
+    padding-left: 8px;
+  }
   .privacy-popup {
     max-width: 288px;
     padding: 39px 10px 27px;
@@ -2991,10 +2999,10 @@ body {
   }
 
   .s7_line {
-    width: 98%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    width: auto;
+    margin-left: 9px;
+    margin-right: 9px;
+}
 
   .s7_grid_table {
     max-width: 320px;
