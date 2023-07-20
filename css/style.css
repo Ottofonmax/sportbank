@@ -33,6 +33,9 @@ body {
   margin-right: auto;
   position: static;
 }
+.section_iframe{
+  margin-top: 50px;
+}
 
 .headyng1 {
   font-size: 54px;
